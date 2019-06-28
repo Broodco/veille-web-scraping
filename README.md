@@ -2,7 +2,7 @@
 
 ## Qu'est-ce que le **Web Scraping**?
 
-Le **Web Scraping** est une technique permettant l'extraction de données d'un site via un programme. l'objectif est d'extraire le contenu de manière structurée en vue de réutiliser les données.
+Le **Web Scraping** est une technique permettant l'extraction de données d'un site via un programme. L'objectif est d'extraire le contenu de manière structurée en vue de réutiliser les données.
 
 ## Pourquoi le **Web Scraping**?
 
@@ -46,7 +46,7 @@ Voici quelques ressources que je mets à votre disposition si vous ne savez pas 
 Voici un petit programme écrit en Python, qui télécharge et affiche le contenu du fichier *robots.txt* du site *Wikipedia*.
 
     import requests
-    response = requests.get("https://fr.wikipedia.org/robots.txt)
+    response = requests.get("https://fr.wikipedia.org/robots.txt")
     robots = response.text
     print (robots)
 
